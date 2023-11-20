@@ -1,0 +1,55 @@
+
+    img#logo {/*logo discord*/
+        position: absolute;
+        top: 23px;
+        right: 55px;
+        max-width: 45px; /*Tamanho da logo do discord*/
+    }
+    img#logo2 {/*logo portvance*/
+        position: absolute;
+        top: 16px;
+        right: 150px;
+        max-width: 150px;
+}
+        header {
+            background-color: #05316d;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+            justify-content: justify;
+            align-items: center;
+            width: 100%;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h2 {
+            color: #05316d;
+        }
+
+        section {
+            
+            max-width: 1000px; /*aumentar a largura da section*/
+            margin: 1em auto; /*distancia entre sections*/
+            padding: 1em; /*distancia entre o come�o da setion e o texto*/
+            background-color: #fff;
+            border-radius: 8px; /*curvatura das bordas da section*/
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); /*sombra que a section tem*/
+        }
+
+        footer {
+            background-color: #05316d;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 1;/*onde fica, mais a cima, mais abaixo, se meter o px vai para o meio da pagina*/
+            width: 100%;
+        }
